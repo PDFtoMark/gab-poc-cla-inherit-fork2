@@ -1,0 +1,10 @@
+name: Probe3
+on:
+  issue_comment:
+    types:
+      - created
+jobs:
+  p3:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo hi3
